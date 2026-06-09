@@ -1,2 +1,8 @@
-benchmark/
-*.dat
+benchmark/*
+!benchmark/alibaba/
+!benchmark/benchmark/
+!benchmark/alibaba/**
+!benchmark/benchmark/**
+!benchmark/fabfile.py
+!benchmark/requirements.txt
+!benchmark/settings.json

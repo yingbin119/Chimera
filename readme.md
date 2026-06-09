@@ -14,7 +14,7 @@ Say something about Chimera...
 Chimera is written in Golang, but all benchmarking scripts are written in Python and run with Fabric. To deploy and benchmark a testbed of 4 nodes on your local machine, clone the repo and install the python dependencies:
 
 ```shell
-git clone https://github.com/ac-dcz/Hydra
+git clone https://github.com/yingbin119/Chimera.git
 cd Chimera/benchmark
 pip install -r requirements.txt
 ```
