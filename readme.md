@@ -76,7 +76,7 @@ ssh-keygen -f ~/.ssh/Aliyun
 
 **3. Configure the testbed**
 
-The file [settings.json](https://github.com/asonnino/hotstuff/blob/main/benchmark/settings.json) (located in [Chimera/benchmark](https://github.com/ac-dcz/Hydra/tree/main/benchmark) contains all the configuration parameters of the testbed to deploy. Its content looks as follows:
+The file [settings.json](https://github.com/asonnino/hotstuff/blob/main/benchmark/settings.json) (located in [Chimera/benchmark](https://github.com/yingbin119/Chimera/tree/main/benchmark) contains all the configuration parameters of the testbed to deploy. Its content looks as follows:
 
 ```json
 {
@@ -134,9 +134,9 @@ The the last block (`instances`) specifies the[Aliyun Instance Type](https://hel
 
 **4. Create a testbed**
 
-The Aliyun instances are orchestrated with [Fabric](http://www.fabfile.org/) from the file [fabfile.py](https://github.com/ac-dcz/Hydra/blob/main/benchmark/fabfile.py) (located in [Chimera/benchmark](https://github.com/ac-dcz/Hydra/tree/main/benchmark)) you can list all possible commands as follows:
+The Aliyun instances are orchestrated with [Fabric](http://www.fabfile.org/) from the file [fabfile.py](https://github.com/yingbin119/Chimera/blob/main/benchmark/fabfile.py) (located in [Chimera/benchmark](https://github.com/yingbin119/Chimera/tree/main/benchmark)) you can list all possible commands as follows:
 
-The command `fab create` creates new Aliyun instances; open [fabfile.py](https://github.com/ac-dcz/Hydra/blob/main/benchmark/fabfile.py) and locate the `create` task:
+The command `fab create` creates new Aliyun instances; open [fabfile.py](https://github.com/yingbin119/Chimera/blob/main/benchmark/fabfile.py) and locate the `create` task:
 
 ```python
 @task
